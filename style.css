@@ -1,0 +1,25 @@
+body{
+    margin: 0px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+table,tr,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td{
+    height: 200px;
+    width: 200px;
+    font-size: 150px;
+    text-align: center;
+}
+
+td:hover{
+    background-color: rgb(185, 179, 179);
+}
